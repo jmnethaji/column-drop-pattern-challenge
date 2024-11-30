@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modernizr Style Webpage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.svg" alt="Logo" width="200" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">DOWNLOAD</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOCUMENTATION</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">NEWS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">RESOURCE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-light">
+      <div class="container">
+        <h1>Respond to your user’s browser features.</h1>
+        <p>
+          Modernizr tells you what HTML, CSS, and JavaScript features the user’s
+          browser has to offer.
+        </p>
+        <a href="#" class="btn btn-danger btn-lg btn-custom"
+          >Add your defects</a
+        >
+        <a href="#" class="btn btn-outline-secondary btn-lg"
+          >Development Build</a
+        >
+      </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="content-section bg-light">
+      <div class="container">
+        <div class="row">
+          <!-- Left Column -->
+          <div class="col-md-6">
+            <h2>What is Modernizr?</h2>
+            <p>
+              It’s a collection of superfast tests – or “detects” – which run as
+              your web page loads, then you can use the results to tailor the
+              experience to the user.
+            </p>
+            <h2>Why do I need it?</h2>
+            <p>
+              All web developers come up against differences between browsers
+              and devices. That’s largely due to different feature sets: the
+              latest versions of the popular browsers can do some awesome things
+              which older browsers can’t – but we still have to support the
+              older ones.
+            </p>
+            <p>
+              Modernizr makes it easy to deliver tiered experiences: make use of
+              the latest and greatest features in browsers which support them,
+              without leaving less fortunate users high and dry.
+            </p>
+          </div>
+
+          <!-- Right Column with Cards/Info Boxes -->
+          <div class="col-md-6">
+            <div class="row">
+              <!-- Box 1 -->
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Getting Started</h3>
+                  <ul>
+                    <li>Modernizr explained</li>
+                    <li>What is feature detection?</li>
+                    <li>Using Modernizr with JavaScript</li>
+                    <li>Using Modernizr with CSS</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Box 2 -->
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Latest News</h3>
+                  <ul>
+                    <li>Modernizr 3.5.0</li>
+                    <li>Modernizr 3.4.0</li>
+                    <li>Modernizr 3.3.1</li>
+                    <li>Modernizr 3.3.0</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Box 3 -->
+              <div class="col-md-6">
+                <div class="info-box">
+                  <h3>Talk to us</h3>
+                  <ul>
+                    <li>Twitter</li>
+                    <li>StackOverflow</li>
+                    <li>GitHub</li>
+                    <li>Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center justify-content-md-between">
+          <!-- Center Column -->
+          <div class="col-8 col-md-8 text-center">
+            <p>
+              Made with love by Faruk, Paul, Alex, Ryan, Patrick, Stu, and
+              Richard
+            </p>
+            <p>
+              Subscribe to the feed, follow on Twitter, or Contact us. Donations
+              are cool, too.
+            </p>
+          </div>
+          <!-- Right Column -->
+          <div class="col-2 col-md-2 text-end">
+            <img
+              src="./assets/github.svg"
+              alt="GitHub"
+              width="60"
+              height="60"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

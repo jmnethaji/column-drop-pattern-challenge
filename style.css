@@ -1,0 +1,56 @@
+/* Custom styles for better layout matching */
+.hero-section {
+  text-align: left;
+  padding: 50px 0;
+}
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+.btn-custom {
+  margin-right: 15px;
+}
+.content-section {
+  padding: 40px 0;
+}
+.content-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+.content-section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.info-box {
+  padding: 10px 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  min-height: 215px;
+}
+.info-box h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px outset;
+}
+.info-box ul {
+  padding-left: 20px;
+}
+.footer {
+  background-color: #dc3545;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .col-md-6 ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
